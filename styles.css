@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(/static/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+
+header {
+    height: 118px;
+    text-align: center;
+}
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.587);
+    /* height: 40px; */
+    text-align: center;
+    width: 700px;
+    border-radius: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.498);
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    height: 500px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: opx;
+}
+
+footer {
+    /* background-color: rgba(237, 237, 237, 0.368); */
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+header h3 {
+    margin: 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+header h4 {
+    margin-top: 2px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0%;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+main a {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+footer h2 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0%;
+    margin-top: 10px;
+}
+div {
+    height: 50px;
+}
+.last {
+    background-color: white;
+    width: 90px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
